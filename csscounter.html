@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <style type="text/css">
+            body{
+                counter-reset: Faculty;
+            }
+            h1{
+                counter-reset: Semester;
+
+            }
+            h1::before{
+                content:"Faculty" counter(Faculty) ":";
+                counter-increment: Faculty;
+                color: lightcoral;
+            }
+            h2::before{
+                content:"Semester"  counter(faculty )"." counter(semester);
+                counter-increment: semester;
+                color: lightsalmon;
+            }
+            /* .div{
+                border: 20px;
+                border-color: lightgoldenrodyellow;
+            }
+             */
+
+            
+
+        </style>
+        
+    </head>
+    <body>
+
+
+
+        
+            
+
+            <table border="1">
+                <tr>
+                    <h1>Bachelor of Information Management</h1>
+                    <td><h2>BIM First</h2></td>
+                        <td><h2>BIM Second</h2></td>
+                        <td><h2>BIM Third</h2> </td>
+                         <td><h2>BIM Fourth</h2></td>
+                </tr>
+                <tr>
+                   <td><h1>Bachelor of Business Administration</h1>
+                    <td><h2>BBA First</h2></td> </td>
+                    <td><h2>BBA Second</h2></td> 
+                    <td><h2>BBA Third</h2></td>
+                  <td><h2>BBA Fourth</h2></td>
+                </tr>
+    
+    
+            </table>
+    
+        
+        
+        
+        
+
+
+        
+    </body>
+</html>

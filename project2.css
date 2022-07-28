@@ -1,0 +1,40 @@
+p{
+    background-color: plum;
+}
+/* 0,0,0,1 */
+/* inline,id,class,element or tag, */
+
+body > p{
+    background-color: aqua;
+}
+/* 0,0,0,2 */
+.title{
+    background-color: antiquewhite;
+    
+}
+/* 0,0,1,0 */
+#id-title.title{
+    background-color: brown;
+}
+    /* 0,1,1,0 */
+
+#id-body #id-title.title{
+
+    background-color: bisque;
+
+}
+/* 1,2,1,0 */
+
+
+/* .card__ */
+/* elemnt ko lagi single  -      and modifier ko lagi double-  */
+
+
+
+.container{
+    padding: 0,0,0,20px;
+    background-color: antiquewhite;
+}
+.bg-red{
+    background-color: red;
+}
